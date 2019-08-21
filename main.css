@@ -10,6 +10,23 @@ aside {
 h1 {
   font-size: 1.8em;
 }
+a.nav-link {
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+}
+nav a.nav-link:last-child {
+  margin-bottom: 0;
+}
+nav h1 {
+  text-align: center;
+}
+main {
+  padding: 20px;
+}
+div.container {
+  width: 100%;
+}
 @media only screen and (min-width: 768px) {
   body > header {
     display: none;
@@ -29,6 +46,8 @@ h1 {
   }
   main {
     padding: 20px;
+    height: 100vh;
+    overflow: auto;
   }
   a.nav-link {
     display: block;
