@@ -1,0 +1,36 @@
+html {
+  box-sizing: border-box;
+}
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+aside {
+  display: none;
+}
+h1 {
+  font-size: 1.8em;
+}
+@media only screen and (min-width: 768px) {
+  body > header {
+    display: none;
+  }
+  aside {
+    display: block;
+    flex-basis: 40%;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  div.container {
+    display: flex;
+  }
+  main {
+    padding: 20px;
+  }
+  a.nav-link {
+    display: block;
+  }
+}
