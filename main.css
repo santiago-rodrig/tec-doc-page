@@ -4,8 +4,17 @@ html {
 *, *::after, *::before {
   box-sizing: inherit;
 }
+h1, h2 {
+  margin: 0;
+}
 h1 {
-  font-size: 1.8em;
+  margin-bottom: 60px;
+}
+h2 {
+  margin: 20px 0;
+}
+main section:first-of-type h2 {
+  margin-top: 0;
 }
 a.nav-link {
   display: block;
