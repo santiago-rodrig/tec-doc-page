@@ -68,6 +68,15 @@ footer {
   width: 100%;
   left: 0;
 }
+.btnUp {
+  display: block;
+  font-size: 1.8em;
+  color: #59eb0b;
+  background-color: #222;
+  border: 2px solid #59eb0b;
+  width: 100px;
+  margin: 0 auto;
+}
 @media only screen and (min-width: 768px) {
   nav#navbar {
     display: flex;
@@ -80,5 +89,8 @@ footer {
   main {
     height: 100vh;
     overflow: auto;
+  }
+  .btnUp {
+    display: none;
   }
 }
